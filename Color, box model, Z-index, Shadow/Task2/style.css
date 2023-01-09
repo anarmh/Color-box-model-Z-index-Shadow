@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    position: absolute
+}
+.card{
+    width: 450px;
+   height: 250px;
+   background-color: #fff;
+   background: linear-gradient(#f8f8f8, #fff);
+   box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+   border-radius: 6px;
+    overflow: hidden;
+    position: relative; 
+   margin: 24px;
+   display: flex;
+}
+
+.card .left{
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(#dE685E, #EE786E);
+    overflow: hidden;
+    padding-top: 20px;
+}
+.card .left img{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.card .left .level{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    border: 1px solid #c9645c;
+   border-radius: 100px;
+   
+}
+.card .left .points{
+    text-align: center;
+    color: white;
+    border: 1px solid #c9645c;
+    border-radius: 100px;
+}
+.card .right{
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    margin-left: auto;
+    padding-left: 20px;
+}
+.card .right h1{
+    padding: 10px 0 10px 60px;
+}
+.card .right p{
+    margin-bottom: 50px;
+}
+.card .right span{
+    margin-left: 40px;
+}
